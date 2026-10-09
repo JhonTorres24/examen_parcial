@@ -7,6 +7,7 @@ import { Carreras } from './componentes/carreras/carreras';
 import { Facultades } from './componentes/facultades/facultades';
 import { Admision } from './componentes/admision/admision';
 import { Noticias } from './componentes/noticias/noticias';
+import { ValorAgregado } from './componentes/valor-agregado/valor-agregado';
 import { Contacto } from './componentes/contacto/contacto';
 import { Footer } from './componentes/footer/footer';
 
@@ -14,8 +15,16 @@ import { Footer } from './componentes/footer/footer';
   selector: 'app-root',
   imports: [
     RouterOutlet,
-    Header, Hero, Nosotros, Carreras, Facultades,
-    Admision, Noticias, Contacto, Footer
+    Header,
+    Hero,
+    Nosotros,
+    Carreras,
+    Facultades,
+    Admision,
+    Noticias,
+    ValorAgregado,
+    Contacto,
+    Footer
   ],
   templateUrl: './app.html',
   styleUrl: './app.css',
